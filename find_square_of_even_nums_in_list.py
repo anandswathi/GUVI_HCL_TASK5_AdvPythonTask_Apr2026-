@@ -14,7 +14,9 @@ def main():
 
     # Using list comprehension to find squares of even nums in list
     sq_even_nums_list = [num**2 for num in given_list if check_even(num)]
+    
     print("Given list: ", given_list)
+    print("Even numbers in the given list: ", [num for num in given_list if check_even(num)])
     print("List of squares of even numbers from given list: ", sq_even_nums_list)
 
 if __name__ == "__main__":
