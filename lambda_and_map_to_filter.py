@@ -22,6 +22,8 @@ list_of_name_age_dict =[
 
 def main():
 
+    print("The given list of dictionaries representing a person with 'name' and 'age' keys: {}".format(list_of_name_age_dict))
+
     # Filtering persons with age less than 18 => minors
     minors_list = list(filter(lambda p: p['age'] < 18, list_of_name_age_dict))
 
