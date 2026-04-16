@@ -13,13 +13,6 @@ def fibonacci_series(n):
     Return: Fibonacci series up to n terms.
     """
 
-    """
-    fib_ser = [0,1]
-    for i in range(2, n):
-        fib_ser.append(fib_ser[-1]+fib_ser[-2])
-    print(fib_ser)
-    """
-
     # initial list
     init_list = [0,1]
 
